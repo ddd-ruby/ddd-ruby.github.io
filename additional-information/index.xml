@@ -16,9 +16,19 @@
       <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ddd-ruby.github.io/additional-information/</guid>
-      <description>&lt;ul&gt;
+      <description>
+
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CjNBnkMHjh4&#34;&gt;Domain-Driven Design for the Database Driven Mind - 2015&lt;/a&gt; + &lt;a href=&#34;https://github.com/julielerman/DomainDrivenDesignforDatabaseDrivenMind&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://channel9.msdn.com/Events/TechEd/Europe/2014/DEV-B411&#34;&gt;Entity Framework Model Partitioning in Domain-Driven Design Bounded Contexts - 2014&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;podcasts&#34;&gt;Podcasts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.devdiscussions.com/episodes&#34;&gt;http://www.devdiscussions.com/episodes&lt;/a&gt;
+Dev Discussions are recorded conversations between web-application developers as we discuss relevant topics.
+With topics like DDD / Event Sourcing.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
