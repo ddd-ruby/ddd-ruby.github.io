@@ -20,53 +20,17 @@
 
 &lt;h2 id=&#34;beautiful-highly-adaptable-and-maintainable-ruby-applications&#34;&gt;Beautiful, highly adaptable and maintainable Ruby applications&lt;/h2&gt;
 
-&lt;p&gt;Material is a theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, a fast and flexible static site generator. It is built using Google&amp;rsquo;s &lt;a href=&#34;https://www.google.com/design/spec/material-design/introduction.html&#34;&gt;material design&lt;/a&gt;
-guidelines, fully responsive, optimized for touch and pointer devices as well
-as all sorts of screen sizes.&lt;/p&gt;
+&lt;p&gt;At some point of your career you have probably heard about DDD (Domain Driven Design) and dismissed it quickly as overly complex and too &lt;code&gt;enterprisy&lt;/code&gt;. After all, MVC and CRUD seem so much simpler and why would you go through the trouble of introducing new layers of complexity to your Ruby / Rails application? It just works and is really easy do maintain for many years to come, right?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://ddd-ruby.github.io/images/screen.png&#34; alt=&#34;Material Screenshot&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Well&amp;hellip; If you have ever worked on a successful Rails application, you probably experienced firsthand the problems that grow, when you apply MVC / CRUD to more complex requirements. You might start to introduce some extra layers, like &lt;code&gt;services&lt;/code&gt;, &lt;code&gt;interactors&lt;/code&gt; and such. While doing this, you have to invent new patterns, that are not quite popular in the Ruby community and there is little guidence, where this path will lead you.&lt;/p&gt;
 
-&lt;p&gt;Material is very lightweight – it is built from scratch using Javascript and
-CSS that weighs less than 30kb (minified, gzipped and excluding Google Fonts
-and Analytics). Yet, it is highly customizable and degrades gracefully in older
-browsers.&lt;/p&gt;
+&lt;p&gt;We developers / builders / business-owners want similar things:
+  - maintainable applications
+  - correct software
+  - good developer experience
+  - this thing should run in production without major problems&lt;/p&gt;
 
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
-
-&lt;p&gt;Install with &lt;code&gt;git&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Beautiful, readable and very user-friendly design based on Google&amp;rsquo;s material
-design guidelines, packed in a full responsive template with a well-defined
-and &lt;a href=&#34;https://ddd-ruby.github.io/getting-started/#changing-the-color-palette&#34;&gt;easily customizable color palette&lt;/a&gt;, great typography, as well as a
-beautiful search interface and footer.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Well-tested and optimized Javascript and CSS including a cross-browser
-fixed/sticky header, a drawer that even works without Javascript using
-the &lt;a href=&#34;http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack/&#34;&gt;checkbox hack&lt;/a&gt; with fallbacks, responsive tables that scroll when
-the screen is too small and well-defined print styles.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Extra configuration options like a &lt;a href=&#34;https://ddd-ruby.github.io/getting-started/#adding-a-logo&#34;&gt;project logo&lt;/a&gt;, links to the authors
-&lt;a href=&#34;https://ddd-ruby.github.io/getting-started/#adding-a-github-and-twitter-account&#34;&gt;GitHub and Twitter accounts&lt;/a&gt; and display of the amount of stars the
-project has on GitHub.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Web application capability on iOS – when the page is saved to the homescreen,
-it behaves and looks like a native application.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;https://ddd-ruby.github.io/getting-started/&#34;&gt;getting started guide&lt;/a&gt; for instructions how to get
-it up and running.&lt;/p&gt;
-
-&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
-
-&lt;p&gt;Last but not least a big thank you to &lt;a href=&#34;https://github.com/squidfunk&#34;&gt;Martin Donath&lt;/a&gt;. He created the original &lt;a href=&#34;https://github.com/squidfunk/mkdocs-material&#34;&gt;Material theme&lt;/a&gt; for Hugo&amp;rsquo;s companion &lt;a href=&#34;http://www.mkdocs.org/&#34;&gt;MkDocs&lt;/a&gt;. This port wouldn&amp;rsquo;t be possible without him.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, thanks to &lt;a href=&#34;https://gihub.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the &lt;a href=&#34;https://github.com/spf13/hugo/graphs/contributors&#34;&gt;awesome community&lt;/a&gt; around the project.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
@@ -112,7 +76,7 @@ it up and running.&lt;/p&gt;
       <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ddd-ruby.github.io/getting-started/</guid>
-      <description>&lt;p&gt;Write about how to start with DDD in Ruby&lt;/p&gt;
+      <description>&lt;p&gt;Motivate the reader to dive deeper in DDD concepts by gently introducing him to some basic material. Also explain how Ruby and DDD applied together help to maintain agile and flexible applications.&lt;/p&gt;
 </description>
     </item>
     
