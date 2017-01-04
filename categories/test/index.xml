@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on DDD concepts with Ruby</title>
+    <link>https://ddd-ruby.github.io/categories/test/index.xml</link>
+    <description>Recent content in Test on DDD concepts with Ruby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <atom:link href="https://ddd-ruby.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://ddd-ruby.github.io/getting-started/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddd-ruby.github.io/getting-started/</guid>
+      <description>&lt;p&gt;Write about how to start with DDD in Ruby&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
