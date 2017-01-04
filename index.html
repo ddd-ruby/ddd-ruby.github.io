@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>DDD in Ruby - DDD concepts with Ruby</title>
+    <title>DDD concepts with Ruby</title>
     <meta name="generator" content="Hugo 0.18.1" />
 
     
@@ -69,14 +69,14 @@
     <script src="https://ddd-ruby.github.io/javascripts/modernizr.js"></script>
 
     
+    <link href="https://ddd-ruby.github.io/index.xml" rel="alternate" type="application/rss+xml" title="DDD concepts with Ruby" />
+    <link href="https://ddd-ruby.github.io/index.xml" rel="feed" type="application/rss+xml" title="DDD concepts with Ruby" />
+    
 
   </head>
   <body class="palette-primary-red palette-accent-teal">
 
 
-
-	
-	
 
 
 <div class="backdrop">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        DDD in Ruby
+        DDD concepts with Ruby
       </div>
     </div>
 
@@ -140,30 +140,12 @@
       <div class="name">
         <strong>DDD concepts with Ruby <span class="version">1.0.0</span></strong>
         
-          <br>
-          ddd-ruby/ddd-ruby.github.io
-        
       </div>
     </div>
   </a>
 
   <div class="scrollable">
     <div class="wrapper">
-      
-        <ul class="repo">
-          <li class="repo-download">
-            <a href="https://github.com/ddd-ruby/ddd-ruby.github.io/archive/master.zip" target="_blank" title="Download" data-action="download">
-              <i class="icon icon-download"></i> Download
-            </a>
-          </li>
-          <li class="repo-stars">
-            <a href="https://github.com/ddd-ruby/ddd-ruby.github.io/stargazers" target="_blank" title="Stargazers" data-action="star">
-              <i class="icon icon-star"></i> Stars
-              <span class="count">&ndash;</span>
-            </a>
-          </li>
-        </ul>
-        <hr>
       
 
       <div class="toc">
@@ -302,9 +284,10 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>DDD in Ruby </h1>
-
 			
+				<h1>DDD in Ruby </h1>
+
+				
 
 <h2 id="beautiful-highly-adaptable-and-maintainable-ruby-applications-only-a-dream">Beautiful, highly adaptable and maintainable Ruby applications - only a dream?</h2>
 
@@ -320,6 +303,38 @@
 
 <p>&hellip;</p>
 
+			
+				<h1>Ruby libraries supporting DDD </h1>
+
+				
+
+<h2 id="rdm-the-missing-dependencies-manager-for-ruby-apps">Rdm: the missing dependencies manager for Ruby apps</h2>
+
+<ul>
+<li><a href="https://ddd-ruby.github.io/rdm/" target="_blank">Rdm</a></li>
+</ul>
+
+<p>With RDM you can split up one big Ruby application into multiple lightweight packages with explicit dependencies. You can do it before going the <code>microservices</code> road, because this would be much smoother transition. Going from explicit dependencies graph to proper SOA / microservices is more straightforward. In DDD it helps to defined clearer <a href="http://martinfowler.com/bliki/BoundedContext.html">Bounded Contexts</a>, where each package can only access explicit dependencies. Contrast this with a monolithic Rails application with one global Ruby memory space, and you might understand the benefit of having stricter, more explicit way to manage dependencies.</p>
+
+<h2 id="hcast-hash-attributes-caster-in-declarative-way">Hcast - Hash attributes caster in declarative way</h2>
+
+<ul>
+<li><a href="https://ddd-ruby.github.io/hcast/" target="_blank">Hcast</a></li>
+</ul>
+
+<p>In the DDD context it helps to convert the user input to a properly casted Ruby object / hash.</p>
+
+<h2 id="smartioc-a-declarative-dependency-injection-library">SmartIoC: a declarative dependency Injection library</h2>
+
+<ul>
+<li><a href="https://ddd-ruby.github.io/smart_ioc/" target="_blank">SmartIoC</a></li>
+</ul>
+
+<p>SmartIoC is a smart and really simple IoC container for Ruby applications.</p>
+
+<p>It allows you to create your dependencies on demand, supports lazy-loading of Ruby files, also allows different contexts for each dependency, so you get test/lightweight implementations in development / tests enviroments. It works great in combination with <code>Rdm</code>.</p>
+
+			
 
 			<aside class="copyright" role="note">
 				
@@ -334,21 +349,23 @@
 			<footer class="footer">
 				
 
+
+
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
-  
   </div>
 
-  <div class="next">
   
-      <a href="https://ddd-ruby.github.io/libraries/" title="Ruby libraries supporting DDD">
+  
+  <div class="next">
+      <a href="https://ddd-ruby.github.io/getting-started/" title="Getting-starteds">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Ruby libraries supporting DDD
+              Getting-starteds
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -356,11 +373,8 @@
           </div>
         </div>
       </a>
-  
   </div>
 </nav>
-
-
 
 
 
@@ -380,8 +394,8 @@
 
     <script>
     
-      var base_url = 'https:\/\/ddd-ruby.github.io\/';
-      var repo_id  = 'ddd-ruby\/ddd-ruby.github.io';
+      var base_url = '';
+      var repo_id  = '';
     
     </script>
 
