@@ -33,6 +33,16 @@
 &lt;/ul&gt;
 
 &lt;p&gt;In the DDD context it helps to convert the user input to a properly casted Ruby object / hash.&lt;/p&gt;
+
+&lt;h2 id=&#34;smartioc-a-declarative-dependency-injection-library&#34;&gt;SmartIoC: a declarative dependency Injection library&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/smart_ioc/&#34; target=&#34;_blank&#34;&gt;SmartIoC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SmartIoC is a smart and really simple IoC container for Ruby applications.&lt;/p&gt;
+
+&lt;p&gt;It allows you to create your dependencies on demand, supports lazy-loading of Ruby files, also allows different contexts for each dependency, so you get test/lightweight implementations in development / tests enviroments. It works great in combination with &lt;code&gt;Rdm&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
