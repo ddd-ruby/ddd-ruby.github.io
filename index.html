@@ -296,7 +296,7 @@
 <li><a href="https://ddd-ruby.github.io/rdm/" target="_blank">Rdm</a></li>
 </ul>
 
-<p>With RDM you can split up one big Ruby application into multiple lightweight packages with explicit dependencies. You can do it before going the <code>microservices</code> road, because this would be much smoother transition. Going from explicit dependencies graph to proper SOA / microservices is more straightforward. In DDD it helps to defined clearer <a href="http://martinfowler.com/bliki/BoundedContext.html">Bounded Contexts</a>, where each package can only access explicit dependencies. Contrast this with a monolithic Rails application with one global Ruby memory space, and you might understand the benefit of having stricter, more explicit way to manage dependencies.</p>
+<p>With RDM you can split up one big Ruby application into multiple lightweight packages with explicit dependencies. You can do it before going the <code>microservices</code> road, because this would be a much smoother transition. Going from explicit dependencies graph to proper SOA / microservices is also more straightforward. In DDD it helps to define clearer <a href="http://martinfowler.com/bliki/BoundedContext.html">Bounded Contexts</a>, where each package can only access explicit dependencies. Contrast this with a monolithic Rails application with one global Ruby memory space, and you might understand the benefit of having stricter, more explicit way of managing dependencies.</p>
 
 <h2 id="smartioc-a-declarative-dependency-injection-library">SmartIoC: a declarative dependency Injection library</h2>
 
@@ -314,7 +314,7 @@
 <li><a href="https://ddd-ruby.github.io/hcast/" target="_blank">Hcast</a></li>
 </ul>
 
-<p>In the DDD context it helps to convert the user input to a properly casted Ruby object / hash.</p>
+<p>In the DDD context it helps to convert user input to a properly casted Ruby object / hash. It is a lightweight dependency-free Ruby library, with a nice DSL for for specifying the structure of expected input with Ruby types.</p>
 
 <h2 id="contracts-contracts-for-ruby">Contracts - Contracts for Ruby</h2>
 
