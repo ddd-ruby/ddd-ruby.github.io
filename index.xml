@@ -18,7 +18,7 @@
       <guid>https://ddd-ruby.github.io/</guid>
       <description>
 
-&lt;h2 id=&#34;beautiful-highly-adaptable-and-maintainable-ruby-applications&#34;&gt;Beautiful, highly adaptable and maintainable Ruby applications&lt;/h2&gt;
+&lt;h2 id=&#34;beautiful-highly-adaptable-and-maintainable-ruby-applications-only-a-dream&#34;&gt;Beautiful, highly adaptable and maintainable Ruby applications - only a dream?&lt;/h2&gt;
 
 &lt;p&gt;At some point of your career you have probably heard about DDD (Domain Driven Design) and dismissed it quickly as overly complex and too &lt;code&gt;enterprisy&lt;/code&gt;. After all, MVC and CRUD seem so much simpler and why would you go through the trouble of introducing new layers of complexity to your Ruby / Rails application? It just works and is really easy do maintain for many years to come, right?&lt;/p&gt;
 
