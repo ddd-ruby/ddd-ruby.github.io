@@ -94,6 +94,17 @@
 
 &lt;p&gt;We have a forked version of &lt;code&gt;contracts&lt;/code&gt; with nice diff output for KeywordArgs type (Hash).&lt;/p&gt;
 
+&lt;h2 id=&#34;values-values-is-a-tiny-library-for-creating-value-objects-in-ruby&#34;&gt;Values - Values is a tiny library for creating value objects in ruby.&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tcrayford/Values&#34; target=&#34;_blank&#34;&gt;Values&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Constructors require expected arguments&lt;/li&gt;
+&lt;li&gt;Instances are immutable&lt;/li&gt;
+&lt;/ol&gt;
+
 &lt;h2 id=&#34;overview-on-travis-ci&#34;&gt;Overview on Travis.CI&lt;/h2&gt;
 
 &lt;ul&gt;
