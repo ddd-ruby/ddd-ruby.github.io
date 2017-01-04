@@ -89,7 +89,7 @@
 
 &lt;p&gt;Contracts let you clearly – even beautifully – express how your code behaves, and free you from writing tons of boilerplate, defensive code.&lt;/p&gt;
 
-&lt;p&gt;We have a forked version of contract with nice diff output for KeywordArgs type (Hash).&lt;/p&gt;
+&lt;p&gt;We have a forked version of &lt;code&gt;contracts&lt;/code&gt; with nice diff output for KeywordArgs type (Hash).&lt;/p&gt;
 </description>
     </item>
     
