@@ -78,17 +78,21 @@ it up and running.&lt;/p&gt;
       <guid>https://ddd-ruby.github.io/libraries/</guid>
       <description>
 
-&lt;h2 id=&#34;hcast&#34;&gt;Hcast&lt;/h2&gt;
+&lt;h2 id=&#34;rdm-the-missing-dependencies-manager-for-ruby-apps&#34;&gt;Rdm: the missing dependencies manager for Ruby apps&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/hcast/&#34;&gt;Hcast&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/rdm/&#34; target=&#34;_blank&#34;&gt;Rdm&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;rdm&#34;&gt;Rdm&lt;/h2&gt;
+&lt;p&gt;With RDM you can split up one big Ruby application into multiple lightweight packages with explicit dependencies. You can do it before going the &lt;code&gt;microservices&lt;/code&gt; road, because this would be much smoother transition. Going from explicit dependencies graph to proper SOA / microservices is more straightforward. In DDD it helps to defined clearer &lt;a href=&#34;http://martinfowler.com/bliki/BoundedContext.html&#34;&gt;Bounded Contexts&lt;/a&gt;, where each package can only access explicit dependencies. Contrast this with a monolithic Rails application with one global Ruby memory space, and you might understand the benefit of having stricter, more explicit way to manage dependencies.&lt;/p&gt;
+
+&lt;h2 id=&#34;hcast-hash-attributes-caster-in-declarative-way&#34;&gt;Hcast - Hash attributes caster in declarative way&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/rdm/&#34;&gt;Rdm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/hcast/&#34; target=&#34;_blank&#34;&gt;Hcast&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;In the DDD context it helps to convert the user input to a properly casted Ruby object / hash.&lt;/p&gt;
 </description>
     </item>
     

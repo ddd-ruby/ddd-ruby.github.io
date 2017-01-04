@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>DDD in Ruby - DDD concepts with Ruby</title>
+    <title>DDD concepts with Ruby</title>
     <meta name="generator" content="Hugo 0.18.1" />
 
     
@@ -69,6 +69,9 @@
     <script src="https://ddd-ruby.github.io/javascripts/modernizr.js"></script>
 
     
+    <link href="https://ddd-ruby.github.io/index.xml" rel="alternate" type="application/rss+xml" title="DDD concepts with Ruby" />
+    <link href="https://ddd-ruby.github.io/index.xml" rel="feed" type="application/rss+xml" title="DDD concepts with Ruby" />
+    
 
   </head>
   <body class="palette-primary-red palette-accent-teal">
@@ -97,7 +100,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        DDD in Ruby
+        DDD concepts with Ruby
       </div>
     </div>
 
@@ -302,9 +305,10 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>DDD in Ruby </h1>
-
 			
+				<h1>DDD in Ruby </h1>
+
+				
 
 <h2 id="beautiful-highly-adaptable-and-maintainable-ruby-applications">Beautiful, highly adaptable and maintainable Ruby applications</h2>
 
@@ -356,6 +360,28 @@ it up and running.</p>
 
 <p>Furthermore, thanks to <a href="https://gihub.com/spf13">Steve Francia</a> for creating Hugo and the <a href="https://github.com/spf13/hugo/graphs/contributors">awesome community</a> around the project.</p>
 
+			
+				<h1>Ruby libraries supporting DDD </h1>
+
+				
+
+<h2 id="rdm-the-missing-dependencies-manager-for-ruby-apps">Rdm: the missing dependencies manager for Ruby apps</h2>
+
+<ul>
+<li><a href="https://ddd-ruby.github.io/rdm/" target="_blank">Rdm</a></li>
+</ul>
+
+<p>With RDM you can split up one big Ruby application into multiple lightweight packages with explicit dependencies. You can do it before going the <code>microservices</code> road, because this would be much smoother transition. Going from explicit dependencies graph to proper SOA / microservices is more straightforward. In DDD it helps to defined clearer <a href="http://martinfowler.com/bliki/BoundedContext.html">Bounded Contexts</a>, where each package can only access explicit dependencies. Contrast this with a monolithic Rails application with one global Ruby memory space, and you might understand the benefit of having stricter, more explicit way to manage dependencies.</p>
+
+<h2 id="hcast-hash-attributes-caster-in-declarative-way">Hcast - Hash attributes caster in declarative way</h2>
+
+<ul>
+<li><a href="https://ddd-ruby.github.io/hcast/" target="_blank">Hcast</a></li>
+</ul>
+
+<p>In the DDD context it helps to convert the user input to a properly casted Ruby object / hash.</p>
+
+			
 
 			<aside class="copyright" role="note">
 				
@@ -370,21 +396,23 @@ it up and running.</p>
 			<footer class="footer">
 				
 
+
+
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
-  
   </div>
 
-  <div class="next">
   
-      <a href="https://ddd-ruby.github.io/libraries/" title="Ruby libraries supporting DDD">
+  
+  <div class="next">
+      <a href="https://ddd-ruby.github.io/getting-started/" title="Getting started">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Ruby libraries supporting DDD
+              Getting started
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -392,11 +420,8 @@ it up and running.</p>
           </div>
         </div>
       </a>
-  
   </div>
 </nav>
-
-
 
 
 
@@ -452,24 +477,6 @@ it up and running.</p>
         var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
 
         for(var i = 0; i < headers.length; i++) {
-            var a = document.createElement("a");
-            a.setAttribute("class", "headerlink");
-            a.setAttribute("href", "#" + headers[i].id);
-            a.setAttribute("title", "Permanent link")
-            a.innerHTML = "#";
-            headers[i].appendChild(a);
-        }
-      }
-    </script>
-
-    
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-  </body>
-</html>
-
-i++) {
             var a = document.createElement("a");
             a.setAttribute("class", "headerlink");
             a.setAttribute("href", "#" + headers[i].id);
