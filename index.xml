@@ -37,11 +37,14 @@
 
 &lt;p&gt;Well&amp;hellip; If you have ever worked on a successful Rails application, you probably experienced firsthand the problems that grow, when you apply MVC / CRUD to more complex requirements. You might start to introduce some extra layers, like &lt;code&gt;services&lt;/code&gt;, &lt;code&gt;interactors&lt;/code&gt; and such. While doing this, you have to invent new patterns, that are not quite popular in the Ruby community and there is little guidence, where this path will lead you.&lt;/p&gt;
 
-&lt;p&gt;We developers / builders / business-owners want similar things:
-  - maintainable applications
-  - correct software
-  - good developer experience
-  - this thing should run in production without major problems&lt;/p&gt;
+&lt;p&gt;We developers / builders / business-owners want similar things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;maintainable applications&lt;/li&gt;
+&lt;li&gt;correct software&lt;/li&gt;
+&lt;li&gt;good developer experience&lt;/li&gt;
+&lt;li&gt;this thing should run in production without major problems&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
