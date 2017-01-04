@@ -80,6 +80,16 @@
 &lt;/ul&gt;
 
 &lt;p&gt;In the DDD context it helps to convert the user input to a properly casted Ruby object / hash.&lt;/p&gt;
+
+&lt;h2 id=&#34;contracts-contracts-for-ruby&#34;&gt;Contracts - Contracts for Ruby&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/contracts.ruby/&#34; target=&#34;_blank&#34;&gt;Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Contracts let you clearly – even beautifully – express how your code behaves, and free you from writing tons of boilerplate, defensive code.&lt;/p&gt;
+
+&lt;p&gt;We have a forked version of contract with nice diff output for KeywordArgs type (Hash).&lt;/p&gt;
 </description>
     </item>
     
