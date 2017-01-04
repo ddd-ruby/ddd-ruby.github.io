@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>DDD concepts with Ruby</title>
+    <title>DDD in Ruby - DDD concepts with Ruby</title>
     <meta name="generator" content="Hugo 0.18.1" />
 
     
@@ -69,9 +69,6 @@
     <script src="https://ddd-ruby.github.io/javascripts/modernizr.js"></script>
 
     
-    <link href="https://ddd-ruby.github.io/index.xml" rel="alternate" type="application/rss+xml" title="DDD concepts with Ruby" />
-    <link href="https://ddd-ruby.github.io/index.xml" rel="feed" type="application/rss+xml" title="DDD concepts with Ruby" />
-    
 
   </head>
   <body class="palette-primary-red palette-accent-teal">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        DDD concepts with Ruby
+        DDD in Ruby
       </div>
     </div>
 
@@ -222,9 +219,9 @@
 
 
 
-<a  title="Adding content" href="https://ddd-ruby.github.io/adding-content/">
+<a  title="Ruby Libraries" href="https://ddd-ruby.github.io/libraries/">
 	
-	Adding content
+	Ruby Libraries
 </a>
 
 
@@ -305,10 +302,9 @@
 
 	<article class="article">
 		<div class="wrapper">
-			
-				<h1>DDD in Ruby </h1>
+			<h1>DDD in Ruby </h1>
 
-				
+			
 
 <h2 id="beautiful-highly-adaptable-and-maintainable-ruby-applications">Beautiful, highly adaptable and maintainable Ruby applications</h2>
 
@@ -360,7 +356,6 @@ it up and running.</p>
 
 <p>Furthermore, thanks to <a href="https://gihub.com/spf13">Steve Francia</a> for creating Hugo and the <a href="https://github.com/spf13/hugo/graphs/contributors">awesome community</a> around the project.</p>
 
-			
 
 			<aside class="copyright" role="note">
 				
@@ -375,23 +370,21 @@ it up and running.</p>
 			<footer class="footer">
 				
 
-
-
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
+  
   </div>
 
-  
-  
   <div class="next">
-      <a href="https://ddd-ruby.github.io/getting-started/" title="Getting started">
+  
+      <a href="https://ddd-ruby.github.io/libraries/" title="Ruby libraries supporting DDD">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Getting started
+              Ruby libraries supporting DDD
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -399,8 +392,11 @@ it up and running.</p>
           </div>
         </div>
       </a>
+  
   </div>
 </nav>
+
+
 
 
 
@@ -456,6 +452,24 @@ it up and running.</p>
         var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
 
         for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
+i++) {
             var a = document.createElement("a");
             a.setAttribute("class", "headerlink");
             a.setAttribute("href", "#" + headers[i].id);

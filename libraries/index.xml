@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Libraries on DDD concepts with Ruby</title>
+    <link>https://ddd-ruby.github.io/libraries/index.xml</link>
+    <description>Recent content in Libraries on DDD concepts with Ruby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
+    <atom:link href="https://ddd-ruby.github.io/libraries/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ruby libraries supporting DDD</title>
+      <link>https://ddd-ruby.github.io/libraries/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>https://ddd-ruby.github.io/libraries/</guid>
+      <description>
+
+&lt;h2 id=&#34;hcast&#34;&gt;Hcast&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/hcast/&#34;&gt;Hcast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rdm&#34;&gt;Rdm&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/rdm/&#34;&gt;Rdm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
