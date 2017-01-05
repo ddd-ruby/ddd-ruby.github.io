@@ -94,6 +94,16 @@ With topics like DDD / Event Sourcing.&lt;/li&gt;
 
 &lt;p&gt;In the DDD context it helps to convert user input to a properly casted Ruby object / hash. It is a lightweight dependency-free Ruby library, with a nice DSL for for specifying the structure of expected input with Ruby types.&lt;/p&gt;
 
+&lt;h2 id=&#34;purevalidator-ruby-domain-object-validation-library&#34;&gt;PureValidator - Ruby domain object validation library&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/pure_validator/&#34; target=&#34;_blank&#34;&gt;PureValidator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PureValidator is a simple, mostly dependency-free (except &lt;code&gt;i18n&lt;/code&gt;) library to validate your domain Ruby objects. It is an excellent companion to &lt;a href=&#34;https://ddd-ruby.github.io/hashcast/&#34; target=&#34;_blank&#34;&gt;HashCast&lt;/a&gt; to validate your Ruby objects against specific domain rules. What makes PureValidator special is the separation of validation rules from the object to validate. After countless fights against &lt;strong&gt;one-size-fits-all&lt;/strong&gt; &lt;code&gt;ActiveModel::Validations&lt;/code&gt;-style validations that mix domain/value object with its valudations, we came to prefer this simpler and more flexible approach.&lt;/p&gt;
+
+&lt;p&gt;This approach is more popular in functional programming and leads to maintainable, easily unit-testable code. You are free to use multiple different validators for the same object in different situations. For example your validation rules during creation of an object are different from validations when user is changing a single boolean flag on it.&lt;/p&gt;
+
 &lt;h2 id=&#34;contracts-contracts-for-ruby&#34;&gt;Contracts - Contracts for Ruby&lt;/h2&gt;
 
 &lt;ul&gt;
