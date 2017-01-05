@@ -121,7 +121,7 @@ With topics like DDD / Event Sourcing.&lt;/li&gt;
 A lightweight dependency-free objects serializer with a nice declarative DSL.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In our &lt;a href=&#34;https://github.com/ddd-ruby/json_serialization_benchmark&#34;&gt;Serializers performance benchmark&lt;/a&gt; it places on a solid middle ground right after plain Ruby presenters while sporting a declarative DSL, providing you the same convenience as &lt;code&gt;ActiveModel Serializers&lt;/code&gt; do.&lt;/p&gt;
+&lt;p&gt;In our &lt;a href=&#34;https://github.com/ddd-ruby/json_serialization_benchmark&#34; target=&#34;_blank&#34;&gt;Serializers performance benchmark&lt;/a&gt; it places on a solid middle ground right after plain Ruby presenters while sporting a declarative DSL, providing you the same convenience as &lt;code&gt;ActiveModel Serializers&lt;/code&gt; do.&lt;/p&gt;
 
 &lt;p&gt;Compared to &lt;code&gt;ActiveModel::Serializers&lt;/code&gt;-dependencies (activemodel / actionpack), that move with the corresponding Rails version, you get non of the potential headaches of conflicting transient dependencies, that are the horror and bane of many biggish Rails applications.&lt;/p&gt;
 
@@ -132,7 +132,7 @@ A lightweight dependency-free objects serializer with a nice declarative DSL.&lt
 Another lightweight dependency-free objects serializer. Its &lt;code&gt;DSL&lt;/code&gt; is less involved, because its main focus is performance.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code&gt;ApiView&lt;/code&gt; is currently the fastest known Ruby-based object serializer. If you are generating huge JSON payloads in your Ruby application, it will bring you 5-10X fold performance improvements, as demonstrated in our &lt;a href=&#34;https://github.com/ddd-ruby/json_serialization_benchmark&#34;&gt;Serializers performance benchmark&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ApiView&lt;/code&gt; is currently the fastest known Ruby-based object serializer. If you are generating huge JSON payloads in your Ruby application, it will bring you 5-10X fold performance improvements, as demonstrated in our &lt;a href=&#34;https://github.com/ddd-ruby/json_serialization_benchmark&#34; target=&#34;_blank&#34;&gt;Serializers performance benchmark&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;values-values-is-a-tiny-library-for-creating-value-objects-in-ruby&#34;&gt;Values - Values is a tiny library for creating value objects in ruby.&lt;/h2&gt;
 
