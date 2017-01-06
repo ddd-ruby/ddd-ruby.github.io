@@ -7,8 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
-    <lastBuildDate>Wed, 04 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jan 2017 21:07:13 +0100</lastBuildDate>
     <atom:link href="https://ddd-ruby.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quest for Quality</title>
+      <link>https://ddd-ruby.github.io/quality/</link>
+      <pubDate>Fri, 06 Jan 2017 21:07:13 +0100</pubDate>
+      
+      <guid>https://ddd-ruby.github.io/quality/</guid>
+      <description>
+
+&lt;p&gt;We continuously strive to provide best quality in our work. And we like to keep it transparent, because it helps us to stay accountable.&lt;/p&gt;
+
+&lt;p&gt;When you find anything worth improving, please tell us and we will work through that issue together. Here is the overview of the &lt;code&gt;ddd-ruby&lt;/code&gt; organization status for different quality metrics.&lt;/p&gt;
+
+&lt;h2 id=&#34;builds-status&#34;&gt;Builds Status&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://travis-ci.org/ddd-ruby/&#34;&gt;https://travis-ci.org/ddd-ruby/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;code-coverage&#34;&gt;Code Coverage&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://codecov.io/gh/ddd-ruby&#34;&gt;https://codecov.io/gh/ddd-ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dependencies-overview&#34;&gt;Dependencies Overview&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gemnasium.com/ddd-ruby&#34;&gt;https://gemnasium.com/ddd-ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Additional Information</title>
@@ -17,6 +49,8 @@
       
       <guid>https://ddd-ruby.github.io/additional-information/</guid>
       <description>
+
+&lt;h2 id=&#34;videos&#34;&gt;Videos&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CjNBnkMHjh4&#34;&gt;Domain-Driven Design for the Database Driven Mind - 2015&lt;/a&gt; + &lt;a href=&#34;https://github.com/julielerman/DomainDrivenDesignforDatabaseDrivenMind&#34;&gt;code&lt;/a&gt;&lt;/li&gt;

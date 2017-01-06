@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qualities on DDD concepts with Ruby</title>
+    <link>https://ddd-ruby.github.io/quality/index.xml</link>
+    <description>Recent content in Qualities on DDD concepts with Ruby</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Released under the MIT license</copyright>
+    <lastBuildDate>Fri, 06 Jan 2017 21:07:13 +0100</lastBuildDate>
+    <atom:link href="https://ddd-ruby.github.io/quality/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quest for Quality</title>
+      <link>https://ddd-ruby.github.io/quality/</link>
+      <pubDate>Fri, 06 Jan 2017 21:07:13 +0100</pubDate>
+      
+      <guid>https://ddd-ruby.github.io/quality/</guid>
+      <description>
+
+&lt;p&gt;We continuously strive to provide best quality in our work. And we like to keep it transparent, because it helps us to stay accountable.&lt;/p&gt;
+
+&lt;p&gt;When you find anything worth improving, please tell us and we will work through that issue together. Here is the overview of the &lt;code&gt;ddd-ruby&lt;/code&gt; organization status for different quality metrics.&lt;/p&gt;
+
+&lt;h2 id=&#34;builds-status&#34;&gt;Builds Status&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://travis-ci.org/ddd-ruby/&#34;&gt;https://travis-ci.org/ddd-ruby/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;code-coverage&#34;&gt;Code Coverage&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://codecov.io/gh/ddd-ruby&#34;&gt;https://codecov.io/gh/ddd-ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dependencies-overview&#34;&gt;Dependencies Overview&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gemnasium.com/ddd-ruby&#34;&gt;https://gemnasium.com/ddd-ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
