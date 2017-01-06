@@ -67,9 +67,10 @@
 &lt;h2 id=&#34;active-serializer-a-simple-objects-to-hash-serializer&#34;&gt;Active Serializer - a simple objects to hash serializer.&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/active_serializer/&#34; target=&#34;_blank&#34;&gt;ActiveSerializer&lt;/a&gt;
-A lightweight dependency-free objects serializer with a nice declarative DSL.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ddd-ruby.github.io/active_serializer/&#34; target=&#34;_blank&#34;&gt;ActiveSerializer&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;ActiveSerializer is a lightweight dependency-free objects serializer with a nice declarative DSL.&lt;/p&gt;
 
 &lt;p&gt;In our &lt;a href=&#34;https://github.com/ddd-ruby/json_serialization_benchmark&#34; target=&#34;_blank&#34;&gt;Serializers performance benchmark&lt;/a&gt; it places on a solid middle ground right after plain Ruby presenters while sporting a declarative DSL, providing you the same convenience as &lt;code&gt;ActiveModel Serializers&lt;/code&gt; do.&lt;/p&gt;
 
